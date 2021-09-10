@@ -1,0 +1,294 @@
+body{
+    zoom: 50%;
+}
+
+
+/* Common Classes */
+.orbit{
+    position:absolute;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-name:revolve;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: inset 1px 1px 10px orangered;
+}
+.orbit img{
+    border-radius:50%;
+    position:absolute;
+    cursor: pointer;
+    user-select: none;
+    z-index: 2;
+}
+
+
+@keyframes revolve { 
+    from { transform:rotate(360deg) } 
+    to { transform:rotate(0deg) } 
+}
+
+
+
+/* Neptune Orbit */
+.neptune{
+    width:4800px;
+    height:4800px;
+    animation-duration:100s;
+    top:100px;
+    left:100px;
+}
+.neptune img{
+    bottom:1540px;
+    right: 0;
+    width:240px;
+}
+
+
+
+/* Uranus Orbit */
+.uranus{
+    width:4300px;
+    height:4300px;
+    animation-duration:90s;
+    top:340px;
+    left:340px;
+}
+.uranus img{
+    bottom:1250px;
+    left: 0;
+    width:290px;
+}
+
+
+
+/* Saturn Orbit */
+.saturn{
+    width:3700px;
+    height:3700px;
+    animation-duration:80s;
+    top:630px;
+    left:630px;
+}
+.saturn img{
+    top: 580px;
+    right: 0;
+    width: 670px;
+}
+
+
+
+/* Jupiter Orbit */
+.jupiter{
+    width:3000px;
+    height:3000px;
+    animation-duration:70s;
+    top:980px;
+    left:980px;
+}
+.jupiter img{
+    top: 550px;
+    left: 0;
+    width: 470px;
+}
+
+
+
+/* Mars Orbit */
+.mars{
+    width:2200px;
+    height:2200px;
+    animation-duration:60s;
+    top:1380px;
+    left:1380px;
+}
+.mars img{
+    bottom: 510px;
+    right: 0;
+    width: 260px;
+}
+
+
+
+/* Earth Orbit */
+.earth{
+    width:1600px;
+    height:1600px;
+    animation-duration:50s;
+    top:1680px;
+    left:1680px;
+}
+.earth img{
+    top: 220px;
+    right: 0;
+    width: 290px;
+}
+
+
+
+/* Venus Orbit */
+.venus{
+    width:1000px;
+    height:1000px;
+    animation-duration:40s;
+    top:1970px;
+    left:1970px;
+}
+.venus img{
+    bottom: 40px;
+    left: 0;
+    width: 250px;
+}
+
+
+
+/* Mercury Orbit */
+.mercury{
+    width:500px;
+    height:500px;
+    animation-duration:30s;
+    top:2215px;
+    left:2215px;
+}
+.mercury img{
+    top: -15px;
+    left: 0;
+    width: 150px;
+}
+
+
+/* Other on screen objects */
+.sun{
+    position: absolute;
+    top: 2340px;
+    left: 2330px;
+    width: 268px;
+    user-select: none;
+}
+
+.commet{
+    position: absolute;
+    top: 1300px;
+    left: 2000px;
+    transform: rotate(-20deg);
+    width: 500px;
+    animation: commet 40s linear;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+@keyframes commet {
+    from{top: 1300px; left: 2000px;}
+    to{ top: 1500px; left: 4500px;}
+}
+
+.rocket{
+    position: absolute;
+    top: 2500px;
+    left: 1430px;
+    width: 300px;
+    transform: rotate(290deg);
+    user-select: none;
+    z-index: 5;
+    animation: spaceship 90s linear;
+    animation-iteration-count: infinite;
+}
+@keyframes spaceship {
+    from{top: 2500px; left: 1430px;}
+    to{ top: 2000px; left: 500px;}
+}
+
+
+.home{
+    position: fixed;
+    user-select: none;
+    top: 4%;
+    left: 5%;
+    width: 10vw;
+    filter: drop-shadow(1px 1px 10px lightblue);
+    z-index: 100;
+}
+
+
+
+/* The info modal */
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 7vh;
+    display: none;
+}
+
+.modal-content{
+    position: relative;
+    background-color: white;
+    margin: auto;
+    width: 30%;
+    height: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    animation: top 0.4s;
+}
+
+.header{
+    display: flex;
+}
+.header img{
+    width: 40%;
+    filter: drop-shadow(0.5px 0.5px 10px gray);
+}
+.header h1{
+    font-size: 8vw;
+    font-family: solaris;
+    text-shadow: 1px 1px 5px white;
+    margin-left: 4%;
+}
+
+.modal-content p{
+    font-size: 2.3vw;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.modal-content button{
+    width: 42%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0.5px 0.5px 3px white;
+    padding: 20px 5px;
+    color: white;
+    font-weight: 550;
+    font-size: 2.5vw;
+    display: inline-block;
+    margin: 1% 3.5%;
+    transition: 0.3s;
+}
+.modal-content button:hover{
+    font-size: 2.6vw;
+    letter-spacing: 1px;
+}
+
+@keyframes top {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: white;
+}

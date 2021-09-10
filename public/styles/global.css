@@ -1,0 +1,22 @@
+@font-face {
+    font-family: solaris;
+    src: url(../fonts/Solaris.ttf);
+}
+@font-face {
+    font-family: voyager;
+    src: url(../fonts/Voyager\ Light.otf);
+}
+
+
+*{
+    font-family: voyager;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(../images/space.gif);
+}
