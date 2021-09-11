@@ -28,6 +28,9 @@ app.get('/shop', function (req, res) {
     res.render('shop')
 })
 
+app.get('/tour', function (req, res) {
+    res.render('booktour')
+})
 
 app.get('/shop/checkcout', function (req, res) {
     res.render('checkout')
@@ -54,14 +57,41 @@ app.post('/book', function(req, res){
 
 
 // DB
-const firebase = require("firebase/app");
-const fs = require('firebase/firestore');
-const admin = require("firebase-admin");
-const serviceAccount = require("./firebase/firestore-key.json")
-
-admin.initializeApp();
-const db = admin.firestore();
-
-app.post('/shop/checkout', function (req, res) {
-
-})
+/*import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";*/
+// const firebaseConfig = {
+//     apiKey: "AIzaSyAWYG1MUmOFfvM0gtFGm0nz4x1kVEHtw-w",
+//     authDomain: "galactic-tour.firebaseapp.com",
+//     projectId: "galactic-tour",
+//     storageBucket: "galactic-tour.appspot.com",
+//     messagingSenderId: "143216449337",
+//     appId: "1:143216449337:web:6145e70f4316341ea47ae8",
+//     measurementId: "G-LSZVVT50KY"
+// };
+//
+// const firebase = require("firebase/app");
+// const fs = require('firebase/firestore');
+// const admin = require("firebase-admin");
+// const serviceAccount = require("./public/firebase/firebase-key.json")
+// // const fire = initializeApp(firebaseConfig);
+// // const analytics = getAnalytics(fire);
+//
+//
+//
+// admin.initializeApp({
+//     credential: admin.credential.cert(serviceAccount),
+//     databaseURL: "https://galactic-tour.firebaseapp.com"
+// });
+//
+// const db = admin.firestore();
+//
+// app.post('/shop/checkout', function (req, res) {
+//     const data = {
+//         name: 'Los Angeles',
+//         state: 'CA',
+//         country: 'USA'
+//     };
+//
+// // Add a new document in collection "cities" with ID 'LA'
+// //     const res = await db.collection('cities').doc('LA').set(data);
+// })

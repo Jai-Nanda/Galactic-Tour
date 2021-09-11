@@ -1,0 +1,18 @@
+.btn-buy {
+  /*display: flex;*/
+}
+
+.btn-center {
+  text-align: center;
+}
+
+.book-trip {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.btn-col {
+  position: relative;
+}
+

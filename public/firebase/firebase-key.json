@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "galactic-tour",
+  "private_key_id": "3a65b499e2f537be8892da915fc7118c3b546f7f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCmRAtKqzfCdqWc\ntWgajXDcRLy4MgDveTondoM4bm3FrVHkG8W/3mTjPYJrmtZFCdis9EskEfNkKCqO\nAC5J5ZWTbtP0JD55Dudv17CIfdI5LyLNFjq2in15M0ClrNLUYojKIWd+lB5THc6x\nFj4izRCdEq9AV3A9IJ58TS0LAInaeO6IqSUyXKI/A+pAuqtgvIdsB/YYK5IlPjSK\nm5gpme2eKsfuTkchoY+1bdsiF+qclfH3EhRp/Cjvi9wFU66mp6FsKWi2NB9NTOhy\nyycbyrKtnx9c/OsTM8Ml+42kYKHvjbB5AHERYLjV/Js98yKHt4jw+XcJDfy6VfP2\nGUn+acLdAgMBAAECggEAICoXLh9/1raZtL5yUHquy+nfQVnpDOq8iZBXc8YHJd/w\n8Oo/f+3vwfcvAQ6P54SvXkwXMjfnyCcuDlDyI3kOzdn5lmghjs1Hj/8fp1QB5G6e\nMqMbgh86BUWZOsO7eHtEX6gFK7tPP4CLcP4u0JAvp9dKwG156NVj24OZlGCLCpCc\n+BvEKMAC3lnyIjujVSjQePaRltp84vgoTyp5IUukI3NRgtf7aX4mt7byYBUIjuMu\niIjT+ADvXoSgsCeHg4HWSo1fdt3c+iqDpTciB9LbxTSHr676tjuSfn38cvQX25/8\nTyW6zrM0k3D5ZOUnBgLtR0qH9Fj9fFJ/x4b7W84oIQKBgQDeHgMeqEYZFhzTW5Hx\nNrnwm2lNaSIcH8JjiMjSdoAxlpCS4zQa5U2rY9ZupTrjejc8CzveDJgEZCqp+ve3\nzPl8YqJrJfi75bGmHIoRauq1eI54bbSgnOBGN16TxUS4bgq4nyRJlvLzjRSS0EI1\ncug8/R0An4LyE3JD4OGq2nDXfQKBgQC/oPSTzYA2rZAwKr2RDVbnSOctenhtO9Mc\ndp+ntspKR+o6p0sDIVMYV1pfC1cliPYC53aDE+3qbsHqlIJJD8Hycr/3k6CzN+H5\nvJ4IrtzwLVSZvrZLVha8UZcLu4zKIMor+BYye/0Fz4QHrxt/E6EoMrkQ4k2I79Vi\nfo3RnWg24QKBgQCaxGzGEthtKHRDbX2+hrR/C7sO/l+PGy4WrrvHslxWsSPhxcCL\nsRUyhClpBWaIFKOiCe3YJgxSmv0DXeT3xDJe0ld7s4SiYEUtiptF0arjcbJMBZ0j\ngMvhATm8W2sr2zlLNVBSmoSE4dvhBI3tsjhSLsfjpEHYrWYkF/EGXJjd/QKBgDml\nbs3jvRU1wzFqOhqfm6v592lr9TxPCeP/H2oxh8sutRyt5NftN3UUGiCLZczp1a/r\n92/ZF/I1HWq3ADaAYgTQVkVhCK/BON6KyjOsftRVnqSdhXNGU5KVLM4fvmuzz33I\npMzNFcGguoQhPjFNM2bHU3rryQ1PsK5vibQsGQShAoGAEiodfrpzqZFhiCrDF8tj\nc3SMWpOADLt8W7gM4KQXxGfPRP1JPf97iU55zI9suBvz7KEh7vFkQYZT7QS98fQy\nZt8FKiUa1I9qV/rABqt9OIw/9DLDI0p5ObmJNEw7mHNJmgq/N7DNg/zdwpYutp6r\nr+lfnZ9Z71ZQ1CV8D6mMjO8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-xbkes@galactic-tour.iam.gserviceaccount.com",
+  "client_id": "106494485379825216634",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-xbkes%40galactic-tour.iam.gserviceaccount.com"
+}
