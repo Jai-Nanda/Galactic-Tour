@@ -2,57 +2,71 @@
     "mercury": {
         "planet_img": "/images/mercury.png",
         "tagline": "The Smallest Planet",
-        "attraction": "SpacE DomE",
+        "attraction": "Space Dome",
         "description": "This tour will include our premium spaceship for all the passengers which contains all the luxury rooms. The passengers will not feel any discomfort while travelling to their desired destination. The spaceship also has many huge windows and screen for the passengers to see the wonderfull outside view.",
-        "attraction_img": "/images/Tour/mercury.jpg"
+        "attraction_img": "/images/Tour/mercury.jpg",
+        "duration": "12 hours",
+        "price": "$2K",
+        "all_attractions": "Space Dome, Volcanoes, Lava Basin"
     },
     "venus": {
         "planet_img": "/images/venus.png",
         "tagline": "The Evening Star",
         "attraction": "Historical Art",
         "description": "This tour will include our premium spaceship for all the passengers which contains all the luxury rooms. The passengers will not feel any discomfort while travelling to their desired destination. The spaceship also has many huge windows and screen for the passengers to see the wonderfull outside view.",
-        "attraction_img": "/images/Tour/venus.jpg"
-    },
-    "earth": {
-        "planet_img": "/images/earth.png",
-        "tagline": "The Blue Planet",
-        "attraction": "OthEr Worlds",
-        "description": "This tour will include our premium spaceship for all the passengers which contains all the luxury rooms. The passengers will not feel any discomfort while travelling to their desired destination. The spaceship also has many huge windows and screen for the passengers to see the wonderfull outside view.",
-        "attraction_img": "/images/Tour/mercury.jpg"
+        "attraction_img": "/images/Tour/venus.jpg",
+        "duration": "15 hours",
+        "price": "$2.5K",
+        "all_attractions": "Historical Art, Maxwell (Mountain Region), Lava Plains"
     },
     "mars": {
         "planet_img": "/images/mars.png",
         "tagline": "The Red Planet",
-        "attraction": "OthEr Worlds",
+        "attraction": "Other Worlds",
         "description": "This tour will include our premium spaceship for all the passengers which contains all the luxury rooms. The passengers will not feel any discomfort while travelling to their desired destination. The spaceship also has many huge windows and screen for the passengers to see the wonderfull outside view.",
-        "attraction_img": "/images/Tour/mars.jpg"
+        "attraction_img": "/images/Tour/mars.jpg",
+        "duration": "1 Day",
+        "price": "$5K",
+        "all_attractions": "Other Worlds, Canyon, Dry Lake Bed"
     },
     "jupiter": {
         "planet_img": "/images/jupiter.png",
         "tagline": "The Gas Giant Planet",
-        "attraction": "SpacE-O-World",
+        "attraction": "Space-O-World",
         "description": "This tour will include our premium spaceship for all the passengers which contains all the luxury rooms. The passengers will not feel any discomfort while travelling to their desired destination. The spaceship also has many huge windows and screen for the passengers to see the wonderfull outside view.",
-        "attraction_img": "/images/Tour/jupiter.jpg"
+        "attraction_img": "/images/Tour/jupiter.jpg",
+        "duration": "2 Day",
+        "price": "$15K",
+        "all_attractions": "Space-O-World, Galilean Moons"
     },
     "saturn": {
         "planet_img": "/images/saturn.png",
         "tagline": "The Ringed Planet",
-        "attraction": "EclipsE CEntEr",
+        "attraction": "Eclipse Center",
         "description": "This tour will include our premium spaceship for all the passengers which contains all the luxury rooms. The passengers will not feel any discomfort while travelling to their desired destination. The spaceship also has many huge windows and screen for the passengers to see the wonderfull outside view.",
-        "attraction_img": "/images/Tour/saturn.jpg"
+        "attraction_img": "/images/Tour/saturn.jpg",
+        "duration": "2 Days",
+        "price": "$20K",
+        "all_attractions": "Eclipse Center"
     },
     "uranus": {
         "planet_img": "/images/uranus.png",
         "tagline": "The Ice Giant",
-        "attraction": "ThE TEch City",
+        "attraction": "The Tech City",
         "description": "This tour will include our premium spaceship for all the passengers which contains all the luxury rooms. The passengers will not feel any discomfort while travelling to their desired destination. The spaceship also has many huge windows and screen for the passengers to see the wonderfull outside view.",
-        "attraction_img": "/images/Tour/uranus.jpg"
+        "attraction_img": "/images/Tour/uranus.jpg",
+        "duration": "3 Days",
+        "price": "$12K",
+        "all_attractions": "The Tech City, The Tech Museum"
     },
     "neptune": {
         "planet_img": "/images/neptune.png",
         "tagline": "The Green Planet",
-        "attraction": "ThE IcE Park",
+        "attraction": "The Ice Park",
         "description": "This tour will include our premium spaceship for all the passengers which contains all the luxury rooms. The passengers will not feel any discomfort while travelling to their desired destination. The spaceship also has many huge windows and screen for the passengers to see the wonderfull outside view.",
-        "attraction_img": "/images/Tour/neptune.jpg"
+        "attraction_img": "/images/Tour/neptune.jpg",
+        "duration": "3 Days",
+        "price": "$10K",
+        "all_attractions": "The Ice Park, The Ice Theme"
     }
 }

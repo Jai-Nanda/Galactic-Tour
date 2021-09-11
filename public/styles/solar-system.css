@@ -14,7 +14,6 @@ body{
     box-shadow: inset 1px 1px 10px orangered;
 }
 .orbit img{
-    border-radius:50%;
     position:absolute;
     cursor: pointer;
     user-select: none;
@@ -216,9 +215,9 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 2;
+    z-index: 21000;
     background-color: rgba(0,0,0,0.4);
-    padding-top: 7vh;
+    padding-top: 20vh;
     display: none;
 }
 
@@ -226,53 +225,81 @@ body{
     position: relative;
     background-color: white;
     margin: auto;
-    width: 30%;
-    height: 90%;
-    padding: 20px;
-    border-radius: 10px;
+    width: 60%;
+    height: 75%;
+    border-radius: 15px;
     animation: top 0.4s;
-}
-
-.header{
     display: flex;
 }
-.header img{
-    width: 40%;
-    filter: drop-shadow(0.5px 0.5px 10px gray);
+
+.modal-left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 48%;
+    height: 100%;
 }
-.header h1{
-    font-size: 8vw;
-    font-family: solaris;
-    text-shadow: 1px 1px 5px white;
-    margin-left: 4%;
+.modal-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 48%;
+    background-color: #78472E;
+    height: 100%;
+    border-radius: 0px 14px 14px 0px;
+    text-align: center;
 }
 
-.modal-content p{
-    font-size: 2.3vw;
-    padding: 10px 20px;
-    font-weight: 600;
+.modal-left h1{
+    font-size: 7vw;
+    text-align: center;
+    font-family: voyager;
 }
-
-.modal-content button{
-    width: 42%;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 10px;
+.modal-left p{
+    font-size: 3vw;
+    width: 95%;
+    margin-top: -1%;
+    margin-left: 5%;
+    text-align: left;
+}
+.modal-left div{
+    position: absolute; 
+    bottom: 4%; 
+    left: 0; 
+    width: 100%;
+}
+.modal-left button{
     background-color: black;
-    box-shadow: 0.5px 0.5px 3px white;
-    padding: 20px 5px;
     color: white;
-    font-weight: 550;
+    width: 35%;
     font-size: 2.5vw;
-    display: inline-block;
-    margin: 1% 3.5%;
+    padding: 10px;
+    margin: 0 5%;
+    cursor: pointer;
     transition: 0.3s;
 }
-.modal-content button:hover{
-    font-size: 2.6vw;
-    letter-spacing: 1px;
+.modal-left button:hover{
+    transform: translateY(-7px);
 }
+
+#tour{
+    float: right;
+    color: black;
+    text-decoration: none;
+    font-size: 2.5vw;
+    font-weight: 600;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+
+.modal-right img{
+    width: 80%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    filter: drop-shadow(0px 0px 5px lightblue);
+}
+
 
 @keyframes top {
     from {top:-300px; opacity:0}
@@ -291,4 +318,104 @@ body{
 
 ::-webkit-scrollbar-thumb{
     background-color: white;
+}
+
+
+
+@media only screen and (max-width: 1100px){
+    .modal{
+        padding-top: 22vh;
+    }
+    .modal-content{
+        width: 70%;
+        height: 70%;
+    }
+
+    .modal-left p{
+        font-size: 3.2vw;
+    }
+
+    .modal-left button{
+        font-size: 2.8vw;
+    }
+
+    #tour{
+        font-size: 2.8vw;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .modal{
+        padding-top: 28vh;
+    }
+    .modal-content{
+        width: 85%;
+        height: 62%;
+    }
+
+    .modal-left h1{
+        font-size: 8.5vw;
+    }
+
+    .modal-left p{
+        font-size: 4.4vw;
+        width: 98%;
+        margin-left: 3%;
+    }
+
+    .modal-left button{
+        font-size: 3.4vw;
+    }
+
+    #tour{
+        font-size: 3.4vw;
+    }
+
+    .modal-right img{
+        top: 20%;
+    }
+}
+
+
+@media only screen and (max-width: 500px){
+    .modal{
+        padding-top: 23vh;
+    }
+    .modal-content{
+        width: 70%;
+        height: 65%;
+        display: block;
+    }
+
+    .modal-left{
+        width: 95%;
+        position: relative;
+        padding: 30px 0;
+    }
+
+    .modal-right{
+        display: none;
+    }
+
+    .modal-left h1{
+        font-size: 11vw;
+    }
+
+    .modal-left p{
+        font-size: 5.3vw;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .modal-left button{
+        font-size: 4.7vw;
+    }
+
+    .modal-left div{
+        bottom: 10%;
+    }
+
+    #tour{
+        font-size: 4.7vw;
+    }
 }
