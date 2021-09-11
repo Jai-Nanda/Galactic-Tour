@@ -28,7 +28,7 @@ app.get('/shop', function (req, res) {
     res.render('shop')
 })
 
-app.get('/tour', function (req, res) {
+app.get('/booktour', function (req, res) {
     res.render('booktour')
 })
 
