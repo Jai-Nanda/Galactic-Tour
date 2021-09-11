@@ -1,7 +1,5 @@
-@font-face {
-    font-family: solaris;
-    src: url(../fonts/Solaris.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 @font-face {
     font-family: voyager;
     src: url(../fonts/Voyager\ Light.otf);
@@ -9,7 +7,7 @@
 
 
 *{
-    font-family: voyager;
+    font-family: 'Poppins', sans-serif;
 }
 
 

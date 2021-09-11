@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="short icon" href="./images/logo.png">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <script type="text/javascript" src="./scripts/planets.json"></script>
 </head>
 <body>
@@ -49,15 +51,20 @@
 
     <div class="modal" id="modal">
         <div class="modal-content">
-            <div class="header">
-                <img src="./images/earth.png" id="planet-img">
-                <h1 id="my_name">EARTH</h1>
+            <div class="modal-left">
+                <h1 id="my_name"></h1>
+
+                <center>
+                    <p id="planet-info"></p>
+                </center>
+
+                <div id="tour-btns">
+                    <a href=""><button>Book Tour</button></a> <a href="/tour/earth" id="tour">Tour Info <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
             </div>
 
-            <p id="planet-info"></p>
-
-            <div style="position: absolute; bottom: 3%; left: 0; width: 100%; text-align: center;">
-                <a href="/tour/earth" id="tour"><button>Virtual Tour</button></a> <a href=""><button>Book Tour</button></a>
+            <div class="modal-right">
+                <img src="./images/earth.png" id="planet-img">
             </div>
         </div>
     </div>
@@ -85,6 +92,9 @@
         info.innerHTML = planet[0][id.toLowerCase()]
         tour.href = '/tour/'+id.toLowerCase()
         modal.style.display = 'block'
+
+        if (id === 'Earth'){document.getElementById('tour-btns').style.display = 'none'}
+        else {document.getElementById('tour-btns').style.display = 'block'}
     }
 
     window.onclick = (event) => {
