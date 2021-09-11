@@ -32,7 +32,7 @@ app.get('/tour', function (req, res) {
     res.render('booktour')
 })
 
-app.get('/shop/checkcout', function (req, res) {
+app.get('/shop/checkout', function (req, res) {
     res.render('checkout')
 })
 
