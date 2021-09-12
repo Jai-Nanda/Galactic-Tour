@@ -20,3 +20,20 @@
   <li>You’ll forget about the planet Earth.</li>
 </ul>
 <p>And the most important thing: Its cheaper than other companies like nasa. In addition to that, after the trip, you’ll start loving nature more.</p>
+
+
+
+<h2>Home Page</h2>
+<p>This is the landing page of our website</p>
+
+
+<h2>Shop Page</h2>
+<p>People can purchase different kinds of products from around the planet using our shop page.</p>
+
+
+<h2>Book Tour Page</h2>
+<p>People can book a ride to their favourite planet at an affordable price using our services.</p>
+
+
+<h2>Solar System Page</h2>
+<p>We have tried to make a realistic 2 dimensional model of the solar system where people can get information about different planets.</p>
