@@ -1,5 +1,5 @@
 body{
-    zoom: 50%;
+    zoom: 25%;
 }
 
 
@@ -307,17 +307,8 @@ body{
 }
 
 
-
 ::-webkit-scrollbar{
-    width: 20px;
-}
-
-::-webkit-scrollbar-track{
-    background-color: black;
-}
-
-::-webkit-scrollbar-thumb{
-    background-color: white;
+    display:none
 }
 
 
@@ -378,9 +369,6 @@ body{
 
 
 @media only screen and (max-width: 500px){
-    body{
-        zoom: 30%
-    }
     .modal{
         padding-top: 23vh;
     }
