@@ -92,4 +92,8 @@ body {
     max-width: 30vw;
     font-size: 1rem;
   }
+
+  .button-get-started{
+    width: 30vw;
+  }
 }

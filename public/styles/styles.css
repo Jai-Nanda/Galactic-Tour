@@ -1,9 +1,17 @@
+body{
+  background: #1f1f1f;
+}
+
+
 .btn-buy {
   /*display: flex;*/
 }
 
 .btn-center {
   text-align: center;
+  position: absolute;
+  bottom: 4%;
+  right: 10%;
 }
 
 .book-trip {
@@ -14,5 +22,24 @@
 
 .btn-col {
   position: relative;
+}
+
+.waves {
+  min-width: 100vw;
+}
+.waves img {
+  width: 100%;
+  background-size: cover;
+  height: 60px;
+
+  opacity: 0.7;
+  /* margin-top: 80px; */
+  position: absolute;
+  top: 2%;
+  left: 0;
+  z-index: -1;
+  right: 0;
+  transform: rotateY(180deg);
+  background-repeat: no-repeat;
 }
 
