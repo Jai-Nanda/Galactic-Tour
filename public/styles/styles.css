@@ -9,36 +9,10 @@
 .book-trip {
   position: absolute;
   bottom: 0;
-  margin-left: 10px;
-  left: 0;
+  right: 0;
 }
 
 .btn-col {
   position: relative;
 }
 
-.first {
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-.last {
-  margin-left: 24px;
-  margin-right: 24px
-}
-
-.middle {
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-@media (min-width: 900px) {
-  .first {
-    margin-right: 24px;
-    margin-left: 80px;
-  }
-  .last {
-    margin-left: 24px;
-    margin-right: 80px;
-  }
-}

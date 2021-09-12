@@ -15,7 +15,12 @@ app.use(express.urlencoded({ extended: false }));
 
 //Routing
 app.get('/', function(req, res){
-    res.redirect('/solarsystem')
+    res.render('index')
+})
+
+
+app.get('/about', function(req, res){
+    res.render('about')
 })
 
 
@@ -24,20 +29,24 @@ app.get('/solarsystem', function(req, res){
 })
 
 
+app.get('/book', function (req, res) {
+    res.render('book')
+})
+
+
 app.get('/tour/:name', function(req,res){
     res.render('tour', {info: tour[req.params.name], name: req.params.name})
+})
+
+
+app.get('/book/:name', function(req, res){
+    res.render('bookForm')
 })
 
 
 app.get('/shop', function (req, res) {
     res.render('shop')
 })
-
-app.get('/booktour', function (req, res) {
-    res.render('booktour')
-})
-
-// TODO: Change routing
 
 app.get('/shop/checkout', function (req, res) {
     res.render('checkout')

@@ -1,0 +1,56 @@
+.bookpage {
+  max-width: 85%;
+  margin: auto;
+}
+.bookpage h1 {
+  margin-top: 20px;
+}
+.carding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_booking {
+  margin-top: 40px;
+  width: 350px;
+  height: 220px;
+  background-color: white;
+  box-shadow: 0 20px 25px -5px rgb(255 255 255 / 10%),
+    0 10px 10px -5px rgb(0 0 0 / 4%);
+  border-radius: 10px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-top: 40px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  margin-left: 5px;
+}
+.text h2 {
+  font-family: "Futura Hv BT";
+  font-weight: 900;
+  font-size: 2rem;
+}
+.text p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.text button {
+  border: none;
+  background-color: black;
+  color: white;
+  width: 130px;
+  height: 35px;
+  font-size: 1rem;
+  margin-top: 12px;
+  box-shadow: 0 8px 32px rgb(0 0 0 / 28%);
+}
+.image img {
+  width: 120px;
+}
