@@ -16,3 +16,28 @@
   position: relative;
 }
 
+.first {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.last {
+  margin-left: 24px;
+  margin-right: 24px
+}
+
+.middle {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+@media (min-width: 900px) {
+  .first {
+    margin-right: 24px;
+    margin-left: 80px;
+  }
+  .last {
+    margin-left: 24px;
+    margin-right: 80px;
+  }
+}

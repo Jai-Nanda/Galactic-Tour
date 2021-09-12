@@ -32,7 +32,9 @@ app.get('/tour', function (req, res) {
     res.render('booktour')
 })
 
-app.get('/shop/checkcout', function (req, res) {
+// TODO: Change routing
+
+app.get('/shop/checkout', function (req, res) {
     res.render('checkout')
 })
 
