@@ -59,7 +59,7 @@
                 </center>
 
                 <div id="tour-btns">
-                    <a href=""><button>Book Tour</button></a> <a href="/tour/earth" id="tour">Tour Info <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <a href="/book/" id='booktour'><button>Book Tour</button></a> <a href="/tour/earth" id="tour">Tour Info <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
             </div>
 
@@ -83,6 +83,7 @@
     var n = document.getElementById('my_name')
     var img = document.getElementById('planet-img')
     var tour = document.getElementById('tour')
+    var bookt = document.getElementById('booktour')
 
     setTimeout(() => document.getElementById('mercury-scroll').click(), 100)
     
@@ -91,6 +92,7 @@
         img.src = 'images/'+id.toLowerCase()+'.png'
         info.innerHTML = planet[0][id.toLowerCase()]
         tour.href = '/tour/'+id.toLowerCase()
+        bookt.href = '/book/'+id.toLowerCase()
         modal.style.display = 'block'
 
         if (id === 'Earth'){document.getElementById('tour-btns').style.display = 'none'}

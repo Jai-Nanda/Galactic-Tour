@@ -11,6 +11,7 @@
     <!-- ^ navbar styling -->
     <link rel="stylesheet" href="./styles/style.css" />
     <!-- ^ main css -->
+    <link rel="stylesheet" href="./styles/global.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -28,23 +29,26 @@
         <ul class="nav-links">
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
-          <li><a href="/booktour">Bookings</a></li>
+          <li><a href="/book">Bookings</a></li>
           <li><a href="/shop">Shop</a></li>
         </ul>
+        <div id="burger">
+          <img src="./images/burger.svg" alt="">
+        </div>
       </nav>
     </header>
     <section class="homepage">
       <div class="heroflex">
         <div class="textflex">
-          <h1>Galactac Tours</h1>
+          <h1>Galactic Tours</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora,
-            natus?
+            Space For All
           </p>
           <div class="buttons">
             <a href="/solarsystem"
               ><button class="button-get-started">Explore</button></a
             >
+            &nbsp;&nbsp;&nbsp;
             <a href="/about"
               ><button class="button-learn-more">
                 Learn More
@@ -60,5 +64,6 @@
                   <div class="waves">
           <img src="./images/chill.png" alt="">
         </div>
+        <script src="./burger.js"></script>
   </body>
 </html>

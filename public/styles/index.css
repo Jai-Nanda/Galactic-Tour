@@ -5,43 +5,25 @@
 body {
   background-color: #1f1f1f;
   color: white;
-  font-family: "futura";
+  font-family: futura;
 }
 h1 {
-  font-family: "voyager";
+  font-family: voyager;
   font-weight: 900;
   font-size: 2.8rem;
 }
 p {
-  font-family: "Futura Bk BT";
+  font-family: futura;
   font-size: 1.2rem;
   font-weight: 300;
 }
 a,
 button {
-  font-family: "Futura Hv BT";
+  font-family: futura;
   font-weight: 400;
   cursor: pointer;
   border-radius: 5px;
 }
-.waves {
-  min-width: 100vw;
-}
-.waves img {
-  width: 100vw;
-  height: 60px;
-  opacity: 0.7;
-  /* margin-top: 80px; */
-  background-size: cover;
-  position: absolute;
-  top: 2%;
-  left: 0;
-  z-index: -1;
-  right: 0;
-  transform: rotateY(180deg);
-  background-repeat: no-repeat;
-}
-
 body::-webkit-scrollbar {
   width: 10px;
 }
@@ -54,4 +36,31 @@ body::-webkit-scrollbar {
   background: white;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+}
+
+.waves {
+  min-width: 100vw;
+}
+.waves img {
+  width: 100%;
+  background-size: cover;
+  height: 60px;
+
+  opacity: 0.7;
+  /* margin-top: 80px; */
+  position: absolute;
+  top: 2%;
+  left: 0;
+  z-index: -1;
+  right: 0;
+  transform: rotateY(180deg);
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 960px) {
+  .waves {
+    max-width: 100vw;
+  }
+  .waves img {
+    max-width: 100%;
+  }
 }

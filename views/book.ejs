@@ -11,6 +11,7 @@
     <!-- ^ navbar styling -->
     <link rel="stylesheet" href="./styles/book.css" />
     <!-- ^ main css -->
+    <link rel="stylesheet" href="./styles/global.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -24,18 +25,20 @@
   <body>
     <header>
       <nav>
-               <div class="logo"> <a href="/"><img src="./images/logo.png" alt="logo" /></div></a>
-
+        <div class="logo"> <a href="/"><img src="./images/logo.png" alt="logo" /></div></a>
         <ul class="nav-links">
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/book">Bookings</a></li>
           <li><a href="/shop">Shop</a></li>
         </ul>
+        <div id="burger">
+          <img src="./images/burger.svg" alt="">
+        </div>
       </nav>
     </header>
     <section class="bookpage">
-      <h1>Book a Ride</h1>
+      <h1>Book a Tour</h1>
       <div class="carding">
         <div class="card_booking">
           <div class="flex">
@@ -65,7 +68,7 @@
               </a>
             </div>
             <div class="image">
-              <img src="./images/venus.png" alt="" style="width: 120px;"/>
+              <img src="./images/venus.png" alt=""/>
             </div>
           </div>
         </div>
@@ -99,7 +102,7 @@
               </a>
             </div>
             <div class="image">
-              <img src="./images/jupiter.png" alt="" style="width: 140px;"/>
+              <img src="./images/jupiter.png" alt=""/>
             </div>
           </div>
         </div>
@@ -115,14 +118,14 @@
               </a>
             </div>
             <div class="image">
-              <img src="./images/saturn.png" alt="" style="width: 180px;"/>
+              <img src="./images/saturn.png" alt=""/>
             </div>
           </div>
         </div>
         <div class="card_booking">
           <div class="flex">
             <div class="text">
-              <h2 style="margin-top: -30px;">Uranus</h2>
+              <h2>Uranus</h2>
               <p>Uranus is the seventh planet from the Sun.</p>
               <a href="/book/uranus">
                 <button>
@@ -131,7 +134,7 @@
               </a>
             </div>
             <div class="image">
-              <img src="./images/uranus.png" alt="" style="width: 180px;"/>
+              <img src="./images/uranus.png" alt=""/>
             </div>
           </div>
         </div>
