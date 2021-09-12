@@ -385,8 +385,8 @@ body{
         padding-top: 23vh;
     }
     .modal-content{
-        width: 25%;
-        height: 25%;
+        width: 28%;
+        height: 28%;
         display: block;
     }
 
@@ -420,5 +420,9 @@ body{
 
     #tour{
         font-size: 15vw;
+    }
+
+    .home{
+        width: 80vw;
     }
 }
