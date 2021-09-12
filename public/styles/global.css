@@ -5,9 +5,14 @@
     src: url(../fonts/Voyager\ Light.otf);
 }
 
+@font-face {
+    font-family: futura;
+    src: url(../fonts/futura\ medium\ bt.ttf);
+}
+
 
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: futura;
 }
 
 
