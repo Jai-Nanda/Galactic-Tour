@@ -30,11 +30,9 @@ nav .logo img {
 }
 @media only screen and (max-width: 960px) {
   header {
-    transition: 0.3s;
     max-width: 100%;
   }
   nav {
-    transition: 0.3s;
     flex-direction: row-reverse;
   }
   .nav-links {
@@ -49,7 +47,6 @@ nav .logo img {
     align-items: center;
     background-size: cover;
     display: none;
-    transition: 0.3s;
   }
   .nav-links li {
     margin-top: 50px;
@@ -62,10 +59,15 @@ nav .logo img {
     display: block;
     cursor: pointer;
     position: absolute;
-    top: 10%;
+    top: 7%;
     left: 5%;
   }
   .nav-active {
     display: block;
+  }
+
+  nav .logo img{
+    width: 60px;
+    margin-right: 5%;
   }
 }

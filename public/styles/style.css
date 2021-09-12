@@ -23,6 +23,7 @@ body {
   font-weight: 100;
   opacity: 0.85;
   margin-top: 0.2vw;
+  z-index: -1;
 }
 .heroimg img {
   margin-top: 2%;
