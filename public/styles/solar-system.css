@@ -378,12 +378,15 @@ body{
 
 
 @media only screen and (max-width: 500px){
+    body{
+        zoom: 30%
+    }
     .modal{
         padding-top: 23vh;
     }
     .modal-content{
-        width: 70%;
-        height: 65%;
+        width: 25%;
+        height: 25%;
         display: block;
     }
 
@@ -398,17 +401,17 @@ body{
     }
 
     .modal-left h1{
-        font-size: 11vw;
+        font-size: 28vw;
     }
 
     .modal-left p{
-        font-size: 5.3vw;
+        font-size: 18.3vw;
         width: 90%;
         margin-left: 5%;
     }
 
     .modal-left button{
-        font-size: 4.7vw;
+        font-size: 15vw;
     }
 
     .modal-left div{
@@ -416,6 +419,6 @@ body{
     }
 
     #tour{
-        font-size: 4.7vw;
+        font-size: 15vw;
     }
 }

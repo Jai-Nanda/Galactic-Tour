@@ -15,6 +15,11 @@ app.use(express.urlencoded({ extended: false }));
 
 //Routing
 app.get('/', function(req, res){
+    res.redirect('/solarsystem')
+})
+
+
+app.get('/solarsystem', function(req, res){
     res.render('solar-system')
 })
 
