@@ -1,14 +1,10 @@
+@font-face {
+  font-family: futura;
+  src: url(../fonts/futura\ medium\ bt.ttf);
+}
+
 body {
-  background: linear-gradient(to right, white 35%, #1f1f1f 0%);
-}
-.sidebarflex {
-  display: flex;
-  justify-content: space-between;
-  max-width: 85%;
-}
-.sidebarflex img {
-  width: 380px;
-  margin-top: 50px;
+  background: linear-gradient(to right, white 40%, #1f1f1f 0%);
 }
 .formpage {
   max-width: 85%;
@@ -16,24 +12,31 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.sidebarflex h1 {
+.sidebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sidebar img {
+  width: 350px;
+  margin-top: 20px;
+}
+.sidebar h1 {
   color: #1f1f1f;
-  text-align: center;
-  margin-top: 50px;
-  margin-left: -60px;
+  margin-top: -250px;
 }
 .form {
   display: flex;
-  justify-content: space-between;
 }
 form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-top: 80px;
+  margin-top: 5%;
+  margin-left: -20%;
 }
 form label {
-  font-family: "Futura Hv BT";
+  font-family: futura;
   font-size: 1.5rem;
   margin-bottom: 5px;
 }
@@ -43,7 +46,7 @@ form input {
   width: 390px;
   height: 50px;
   margin-bottom: 20px;
-  font-family: "Futura Bk BT";
+  font-family: futura;
   padding-left: 10px;
   color: white;
   outline: none;
@@ -57,6 +60,35 @@ form button {
   height: 40px;
   font-size: 1.4rem;
   text-align: center;
-  font-family: "lufga";
   font-weight: 500;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 960px) {
+  body {
+    background: #1f1f1f;
+  }
+  .formpage {
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sidebar h1 {
+    color: white;
+    font-size: 2.2em;
+    max-width: 80vw;
+    margin-top: 50px;
+  }
+  .sidebar img {
+    max-width: 80vw;
+    margin: auto;
+  }
+  form {
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+  }
+  form input {
+    max-width: 80vw;
+  }
 }

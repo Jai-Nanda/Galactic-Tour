@@ -1,5 +1,6 @@
 body{
     zoom: 25%;
+    background-image: url(../images/space.gif);
 }
 
 
@@ -201,7 +202,7 @@ body{
     user-select: none;
     top: 4%;
     left: 5%;
-    width: 10vw;
+    width: 22vw;
     filter: drop-shadow(1px 1px 10px lightblue);
     z-index: 100;
 }
