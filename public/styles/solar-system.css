@@ -378,6 +378,9 @@ body{
 
 
 @media only screen and (max-width: 500px){
+    body{
+        zoom: 20%
+    }
     .modal{
         padding-top: 23vh;
     }
