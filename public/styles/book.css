@@ -88,7 +88,10 @@
   .text {
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin-left: -3%;
+  }
+  .text p{
+    font-size: 3.7vw;
   }
   .image img {
     width: 35vw;
